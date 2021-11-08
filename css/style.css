@@ -21,7 +21,7 @@ body {
 #container {
     height: 100%;
     margin: 0 20%;
-    background-color: rgba(0, 0, 0, 0.1);
+    /* background-color: rgba(0, 0, 0, 0.1); */
     padding-bottom: 50px;
 }
 
@@ -72,4 +72,31 @@ thead {
 
 .blue-row {
     background-color: #b1e5f2;
+}
+
+/* Text in footer */
+
+#interests {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.foot-img-title {
+    color: white;
+    padding: 15px;
+}
+
+/* Images footer */
+
+.monitor-image {
+    height: 208px;
+    width: 312px;
+}
+
+#monitor {
+    background-image: url(../img/monitor.jpg);
+}
+
+#graph {
+    background-image: url(../img/graph.jpg);
 }
