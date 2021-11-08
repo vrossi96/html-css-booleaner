@@ -1,23 +1,47 @@
 body {
-    background-color: aqua;
     margin: 0;
 }
 
-header {
+/* Horizontal bar */
+#logo-bar {
     height: 80px;
     width: 100%;
     background-color: #4ea0ff;
     background-image: url(../img/pattern.png);
     background-size: 350px;
-    text-align: center;
 }
 
-main {
-    height: 1080px;
-    margin: 0 20%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
+/* Logo in horizontal bar */
 #logo {
     height: 100%;
+    margin-left: 20%;
+}
+
+/* Main container */
+#container {
+    height: 1080px;
+    margin: 0 20%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Text in main */
+#title {
+    margin: 0;
+    padding-top: 30px;
+}
+
+.info, figcaption {
+    color: grey;
+}
+
+#author {
+    font-weight: 600;
+}
+
+#date, figcaption {
+    font-size: 12px;
+}
+
+.higlighted {
+    background-color: yellow;
 }
