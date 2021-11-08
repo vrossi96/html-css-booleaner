@@ -19,6 +19,10 @@ figure {
 /* Logo in horizontal bar */
 #logo {
     height: 100%;
+}
+
+#logo-bonus {
+    height: 100%;
     margin-left: 20%;
 }
 
