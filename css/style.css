@@ -1,5 +1,10 @@
+/* General */
 body {
     margin: 0;
+}
+
+figure {
+    margin-left: 0;
 }
 
 /* Horizontal bar */
