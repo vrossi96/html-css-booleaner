@@ -50,3 +50,26 @@ body {
 ul {
     padding-left: 20px;
 }
+
+/* table */
+table {
+    width: 100%;
+    /* rimuove la spaziatura tra celle */
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #20a9e5;
+}
+
+.lor {
+    width: 25%;
+}
+
+#lor3 {
+    width: 50%;
+}
+
+.blue-row {
+    background-color: #b1e5f2;
+}
