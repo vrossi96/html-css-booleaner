@@ -1,0 +1,23 @@
+body {
+    background-color: aqua;
+    margin: 0;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    background-color: #4ea0ff;
+    background-image: url(../img/pattern.png);
+    background-size: 350px;
+    text-align: center;
+}
+
+main {
+    height: 1080px;
+    margin: 0 20%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#logo {
+    height: 100%;
+}
