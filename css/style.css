@@ -27,6 +27,11 @@ figure {
 }
 
 /* Main container */
+.container-base {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 #container {
     height: 100%;
     margin: 0 20%;
